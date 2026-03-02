@@ -6,6 +6,17 @@ Go bindings for [libgit2](http://libgit2.github.com/).
 
 ### Which Go version to use
 
+## Service Metadata
+
+| Key                             | Value                          |
+|---------------------------------|--------------------------------|
+| **TEAM**                        | Team Name                      |
+| **TEAM-MANAGER-EMAIL**          | amit@nightfall.ai                     |
+| **SLACK-DEPLOY-NOTIFY-CHANNEL** | #deploy-notifications-channel  |
+| **SLACK-TEAM-CHANNEL**          | #team-slack-channel            |
+| **TEAM-LINEAR-SLUG**            | DTE                 |
+
+
 Due to the fact that Go 1.11 module versions have semantic meaning and don't necessarily align with libgit2's release schedule, please consult the following table for a mapping between libgit2 and git2go module versions:
 
 | libgit2 | git2go        |
@@ -108,4 +119,3 @@ Authors
 
 - Carlos Martín (@carlosmn)
 - Vicent Martí (@vmg)
-
